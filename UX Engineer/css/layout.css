@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'FlamanteRomaMedium';
+  src: url('/FlamanteRomaMedium/Flamante-Roma-Medium.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Additional styles for header, footer, and scroll-to-top button */
+header,
+footer {
+  margin: auto;
+  width: 100%;
+  background-color: #0095da;
+  color: #fff;
+  padding: 10px;
+  font-family: gotham;
+}
+
+footer {
+  display: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0095da;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

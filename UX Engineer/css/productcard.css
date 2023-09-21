@@ -1,0 +1,52 @@
+.product-card {
+  width: 132px; /* For mobile screens */
+  max-width: 182px; /* For desktop screens */
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 20px;
+  background-color: #f2f2f2; /* Background color */
+  border-radius: 10px; /* Border radius */
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background-color: #ffffff; /* White background */
+  line-height: 1.5;
+}
+
+.product-title {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(59, 59, 59, 0.933);
+}
+
+.product-price {
+  font-size: 14px;
+  color: #ff6600; /* Orange price color */
+  text-align: left;
+}
+
+.discount {
+  font-size: 10px;
+  color: #3b9aff; /* Blue discount color */
+  text-align: left;
+}
+
+.add-to-bag-button {
+  background-color: #0095da;
+  color: #fff;
+  padding: 5px 25px; /* Adjust button padding */
+  border: none;
+  border-radius: 5px; /* Button border radius */
+  cursor: pointer;
+}
